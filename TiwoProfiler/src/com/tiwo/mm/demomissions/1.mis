@@ -1,0 +1,17 @@
+ # TiWO demo mission
+ # Created by Ivan
+ # 
+ # The mission:
+ # Robot goes 2.3 meters forward, then turns right for 30 degrees, initiates arrow detection and proceeds forward until it's detected.
+ 
+START
+
+FORWARD 2.3
+RIGHT 30
+
+DETECT LEFT_ARROW
+  
+GO FORWARD
+ 	UNTIL OBJECT_DETECTED
+  
+STOP

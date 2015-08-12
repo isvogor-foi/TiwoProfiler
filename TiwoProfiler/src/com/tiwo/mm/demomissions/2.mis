@@ -1,0 +1,42 @@
+ # TiWO demo mission
+ # Created by Ivan
+ # 
+ # The mission:
+ # After a 180 degree back turn, robot proceeds with 10 zig-zag movements
+ 
+START
+
+BACKWARD 1
+ROTATE 180
+
+FORWARD 1
+LEFT 60
+
+FORWARD 1
+RIGHT 60
+
+FORWARD 1
+LEFT 60
+
+FORWARD 1
+RIGHT 60
+
+FORWARD 1
+LEFT 60
+
+FORWARD 1
+RIGHT 60
+
+FORWARD 1
+LEFT 60
+
+FORWARD 1
+RIGHT 60
+
+FORWARD 1
+LEFT 60
+
+FORWARD 1
+RIGHT 60
+
+STOP

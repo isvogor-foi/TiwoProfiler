@@ -31,6 +31,6 @@ public class MissionManagerProfilerMain {
 		System.out.println("Press enter to continue...");
 		Scanner keyboard = new Scanner(System.in);
 		keyboard.nextLine();
-		}
+	}
 
 }
