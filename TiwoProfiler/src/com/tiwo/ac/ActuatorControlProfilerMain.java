@@ -23,7 +23,7 @@ public class ActuatorControlProfilerMain {
 		
 		serialInstance.getPorts();
 		
-		serialInstance.connect("COM3", 9100);
+		serialInstance.connect("COM3", 9600);
 		
 		serialInstance.sendMessage("FORWARD");
 		
